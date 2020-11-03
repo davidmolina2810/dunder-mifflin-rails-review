@@ -1,0 +1,6 @@
+<% if flash[:errors] %>
+  <h4 style="color:red"><%= flash[:errors][0] %></h4>
+<%end%>
+<h1>New Employee</h1>
+
+<%= render "form" %>
